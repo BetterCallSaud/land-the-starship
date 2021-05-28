@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+* {
+    font-family: "ZCOOL KuaiLe";
+}
+body {
+    margin: 0;
+    background-color: skyblue;
+}
+h1 {
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+#screen {
+    align-content: center;
+}
+button {
+    align-content: center;
+    padding: 10px 0px 10px 0px;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#yes {
+    font-size: 30px;
+    color: white;
+    background: darkgreen;
+}
+#no {
+    font-size: 30px;
+    color: white;
+    background: darkred;
+}
+div {
+    display: grid;
+}
+#landingConfirmed {
+    color: green;
+}
+#landingFailed {
+    color: firebrick;
+}
