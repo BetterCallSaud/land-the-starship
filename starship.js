@@ -47,9 +47,9 @@ function create ()
     this.add.image(w/2, h-20, 'platform').setScale(0.5);
 
     // Arrow buttons for mobile devices
-    this.add.image(4*w/10, 0.75*h, 'leftBtn', left, this).setScale(0.2);
-    this.add.image(5*w/10, 0.75*h, 'upBtn', up, this).setScale(0.2);
-    this.add.image(6*w/10, 0.75*h, 'rightBtn', right, this).setScale(0.2);
+    //this.add.image(4*w/10, 0.75*h, 'leftBtn', left, this).setScale(0.2);
+    //this.add.image(5*w/10, 0.75*h, 'upBtn', up, this).setScale(0.2);
+    //this.add.image(6*w/10, 0.75*h, 'rightBtn', right, this).setScale(0.2);
 
     // Platform
     platform = this.physics.add.sprite(w/2, h, 'platform').setScale(0.5);
